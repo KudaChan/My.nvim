@@ -3,8 +3,11 @@
 --
 -- See the kickstart.nvim README for more information
 return {
-  require('lazy').setup {
-    -- Your other plugins here
-    'augmentcode/augment.vim',
+
+  {
+    'nvim-lua/plenary.nvim',
+    name = 'plenary',
   },
+
+  'eandrju/cellular-automaton.nvim',
 }
